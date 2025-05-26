@@ -1,11 +1,11 @@
 {
 "update_url": "https://clients2.google.com/service/update2/crx",
 
-  "name": "Builder.io",
+  "name": "Codro Copy Layouts",
   "version": "2.0.21",
   "manifest_version": 3,
-  "description": "Builder.io chrome extension",
-  "homepage_url": "https://builder.io",
+  "description": "Save time by copying layouts from the web directly into Codro",
+  "homepage_url": "https://codro.com",
   "icons": {
     "16": "icons/builder-icon-small.png",
     "48": "icons/builder-icon-medium.png",
