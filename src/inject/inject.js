@@ -237,7 +237,7 @@
     }
     var h = void 0,
         x = !1,
-        w = "#ddf928";
+        w = "#d4b400";
     function S() {
         var e = document.getElementById("builder-copy-layout-overlay");
         if (e) return e;
