@@ -237,7 +237,7 @@
     }
     var h = void 0,
         x = !1,
-        w = "rgb(26, 115, 235, 1)";
+        w = "#ddf928";
     function S() {
         var e = document.getElementById("builder-copy-layout-overlay");
         if (e) return e;
@@ -448,7 +448,7 @@
                                                         .concat(v ? "Copied!" : "Downloaded!", '</div>\n            <div style="font-size:22px;margin-bottom:20px;font-weight:normal">Now ')
                                                         .concat(
                                                             v ? "paste" : "upload",
-                                                            ' in Builder.io or Figma</div>\n            <a style="font-size:16px;font-weight:bold;text-decoration:none;color:#87CEEB;border:2px solid #87CEEB;padding:8px 16px;border-radius:4px;display:inline-block" \n               href="https://www.builder.io/c/docs/chrome-extension" \n               target="_blank">Learn more</a>\n          </div>'
+                                                            ' in Codro or Figma</div>\n            <a style="font-size:16px;font-weight:bold;text-decoration:none;color:#87CEEB;border:2px solid #87CEEB;padding:8px 16px;border-radius:4px;display:inline-block" \n               href="https://www.builder.io/c/docs/chrome-extension" \n               target="_blank">Learn more</a>\n          </div>'
                                                         )),
                                                     [4, y(15e3)]
                                                 );
