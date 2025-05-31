@@ -237,7 +237,7 @@
     }
     var h = void 0,
         x = !1,
-        w = "#d4b400";
+        w = "#defa28";
     function S() {
         var e = document.getElementById("builder-copy-layout-overlay");
         if (e) return e;
@@ -308,7 +308,7 @@
                 opacity: 0,
                 padding: "3px 10px",
                 backgroundColor: w,
-                color: "white",
+                color: "black",
                 fontWeight: 500,
                 fontSize: "14px",
                 fontFamily: "Inter, Helvetica, sans-serif",
