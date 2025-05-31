@@ -1,15 +1,15 @@
 {
-"update_url": "https://clients2.google.com/service/update2/crx",
-
-  "name": "Codro Copy Layouts",
+  "update_url": "https://clients2.google.com/service/update2/crx",
+  "name": "Codro: Layout Importer",
   "version": "2.0.21",
   "manifest_version": 3,
-  "description": "Save time by copying layouts from the web directly into Codro",
+  "description": "Save time by copying layouts from the web directly into Codro.",
   "homepage_url": "https://codro.com",
   "icons": {
-    "16": "icons/builder-icon-small.png",
-    "48": "icons/builder-icon-medium.png",
-    "128": "icons/builder-icon-large.png"
+    "16": "img/icons/icon16.png",
+    "32": "img/icons/icon32.png",
+    "48": "img/icons/icon48.png",
+    "128": "img/icons/icon128.png"
   },
   "background": {
     "service_worker": "src/bg/background.js",
@@ -19,7 +19,7 @@
     "default_popup": "popup.html"
   },
   "content_security_policy": {
-    "extension_pages": "script-src 'self'; object-src 'self'"
+    "extension_pages": "script-src 'self'; object-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com;"
   },
   "permissions": [
     "declarativeNetRequest",
@@ -44,7 +44,7 @@
   ],
   "externally_connectable": {
     "matches": [
-      "*://*.builder.io/*",
+      "*://*.codro.com/*",
       "*://localhost:*/*"
     ]
   },

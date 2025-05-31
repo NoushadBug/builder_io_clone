@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+@keyframes pulse-glow {
+
+    0%,
+    100% {
+        box-shadow: 0 0 20px rgba(221, 249, 40, 0.3);
+    }
+
+    50% {
+        box-shadow: 0 0 30px rgba(221, 249, 40, 0.6);
+    }
+}
+
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-8px);
+    }
+}
+
+@keyframes bounce-subtle {
+
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.05);
+    }
+}
+
+.beta-tag {
+    background-color: rgba(221, 249, 40, 0.1);
+    border-color: rgba(221, 249, 40, 0.3);
+    color: #ddf928;
+}
+
+.main-button {
+    background-color: #ddf928;
+}
+
+.learn-more-link {
+    color: #ddf928;
+}
+
+/* Tailwind custom configuration */
+@layer base {
+    :root {
+        --color-accent: #ddf928;
+        --color-accent-dark: #c4e021;
+    }
+}
+
+@layer utilities {
+    .animate-pulse-glow {
+        animation: pulse-glow 2s infinite;
+    }
+
+    .animate-float {
+        animation: float 3s ease-in-out infinite;
+    }
+
+    .animate-bounce-subtle {
+        animation: bounce-subtle 2s infinite;
+    }
+}
